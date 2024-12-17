@@ -106,3 +106,5 @@ plt.ylabel('accuracy')
 plt.legend()
 plt.grid()
 plt.show()
+
+#ブランチの確認
