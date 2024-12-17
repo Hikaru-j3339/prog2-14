@@ -8,7 +8,7 @@ import torchvision.transforms.v2 as transforms
 
 import models
 
-device = 'cuda' if torch.cuda.is_acailable() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 ds_transform = transforms.Compose([
         transforms.ToImage(),
